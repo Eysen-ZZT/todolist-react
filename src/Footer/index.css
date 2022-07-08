@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+}
+
+.footer .col {
+  display: flex;
+  align-items: center;
+}
+
+.footer span {
+  font-size: 14px;
+  margin: 0 6px;
+}
+
+.footer button {
+  border: 0;
+  color: rgba(255, 255, 255, .9);
+  background-color: rgb(221, 52, 52);
+  border-radius: 4px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
