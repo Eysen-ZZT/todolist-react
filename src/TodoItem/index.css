@@ -16,6 +16,10 @@
   align-items: center;
 }
 
+.item label {
+  padding: 3px 0;
+}
+
 .item span {
   margin: 0 6px;
   font-size: 14px;
