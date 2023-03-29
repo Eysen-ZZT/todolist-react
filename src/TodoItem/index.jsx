@@ -25,8 +25,8 @@ export default class TodoItem extends Component {
     return (
       <div className='item' style={{ background: mouse ? '#ddd' : '#fff' }} onMouseEnter={this.handleMouse(true)} onMouseLeave={this.handleMouse(false)}>
         <div className='col'>
-          <label>
-            <input type="checkbox" checked={done} onChange={this.handleUpdate(id)} />
+          <label htmlFor={id}>
+            <input id={id} type="checkbox" checked={done} onChange={this.handleUpdate(id)} />
             <span>{todoname}</span>
           </label>
         </div>
